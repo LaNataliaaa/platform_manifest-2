@@ -1,0 +1,36 @@
+The Android Open Source Project - Nougat 7.1.2 [BETA]
+===========
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the AOSP trees, use a command like this:
+
+    repo init -u git://github.com/One-UI/platform_manifest.git -b 7.1.2
+
+or if you use SSH:
+
+    repo init -u git@github.com:One-UI/platform_manifest.git -b aosp-7.1.2
+
+
+Then to sync up:
+
+    repo sync
+
+Set up build enviroment
+
+    . build/envsetup.sh
+
+If you want to disable block-based OTA
+
+    export BLOCK_BASED_OTA=false
+
+Select device
+
+    lunch aosp_DEVICECODENAME-userdebug
+
+Compile the rom
+
+    make -j# otapackage
