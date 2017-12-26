@@ -42,7 +42,6 @@
 
 
   
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-7.1.2" />
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8994" />
